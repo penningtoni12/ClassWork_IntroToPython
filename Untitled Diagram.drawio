@@ -1,9 +1,61 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
-  <diagram name="Page-1" id="uGtnsdz6GftOsrh2-PHp">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
+  <diagram name="Page-1" id="X1S5XupDkZqwKni88Q8K">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WMkOf_u9x0Kd-D45ZlgN-1" value="Employee" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="180" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="WMkOf_u9x0Kd-D45ZlgN-2" value="__name&lt;div&gt;__number&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WMkOf_u9x0Kd-D45ZlgN-1">
+          <mxGeometry y="26" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="WMkOf_u9x0Kd-D45ZlgN-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="WMkOf_u9x0Kd-D45ZlgN-1">
+          <mxGeometry y="60" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="WMkOf_u9x0Kd-D45ZlgN-4" value="&lt;div&gt;__init__(name, number)&lt;/div&gt;set_name(name)&lt;br&gt;&lt;div&gt;set_number(number)&lt;/div&gt;&lt;div&gt;get_name()&lt;/div&gt;&lt;div&gt;get_number()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WMkOf_u9x0Kd-D45ZlgN-1">
+          <mxGeometry y="68" width="160" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="WMkOf_u9x0Kd-D45ZlgN-5" value="ShiftSupervisor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="400" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="WMkOf_u9x0Kd-D45ZlgN-6" value="__salary&lt;div&gt;__bonus&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WMkOf_u9x0Kd-D45ZlgN-5">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WMkOf_u9x0Kd-D45ZlgN-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="WMkOf_u9x0Kd-D45ZlgN-5">
+          <mxGeometry y="70" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="WMkOf_u9x0Kd-D45ZlgN-8" value="__init__(name, number, annual_salary, annual_bonus)&lt;div&gt;set_salary(salary)&lt;/div&gt;&lt;div&gt;set_bonus(bonus)&lt;/div&gt;&lt;div&gt;get_salary()&lt;/div&gt;&lt;div&gt;get_bonus()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WMkOf_u9x0Kd-D45ZlgN-5">
+          <mxGeometry y="78" width="160" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="WMkOf_u9x0Kd-D45ZlgN-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.519;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;endArrow=block;endFill=0;" edge="1" parent="1" source="WMkOf_u9x0Kd-D45ZlgN-5" target="WMkOf_u9x0Kd-D45ZlgN-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="380" />
+              <mxPoint x="413" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WMkOf_u9x0Kd-D45ZlgN-10" value="ProductionWorker" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="400" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="WMkOf_u9x0Kd-D45ZlgN-11" value="__shift&lt;div&gt;__pay&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WMkOf_u9x0Kd-D45ZlgN-10">
+          <mxGeometry y="26" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="WMkOf_u9x0Kd-D45ZlgN-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="WMkOf_u9x0Kd-D45ZlgN-10">
+          <mxGeometry y="60" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="WMkOf_u9x0Kd-D45ZlgN-13" value="__init__(name, number, shift, pay)&lt;div&gt;set_shift(shift)&lt;/div&gt;&lt;div&gt;set_pay(pay)&lt;/div&gt;&lt;div&gt;get_shift()&lt;/div&gt;&lt;div&gt;get_pay()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WMkOf_u9x0Kd-D45ZlgN-10">
+          <mxGeometry y="68" width="160" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="WMkOf_u9x0Kd-D45ZlgN-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;" edge="1" parent="1" source="WMkOf_u9x0Kd-D45ZlgN-10" target="WMkOf_u9x0Kd-D45ZlgN-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="380" />
+              <mxPoint x="410" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
